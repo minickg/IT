@@ -1,0 +1,199 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+.header{
+    /* border: 1px solid black; */
+    border-bottom: 2px solid #dc0101;
+}
+.page{
+    /* border: 1px solid black; */
+}
+.footer{
+    /* border: 1px solid black; */
+}
+.column{
+    /* border: 1px solid black; */
+    width: 1000px;
+    margin: 0px auto;
+   
+}
+.page .column{
+height: 100vh;
+}
+#logo-i-social{
+    display: flex;
+}
+#logo-holder{
+    flex-grow: 1;
+    margin-bottom: 20px;
+}
+#logo-holder  img{
+    width: 600px;
+    height: 100px;
+}
+#social-holder{
+    flex-grow: 1;
+    text-align: right;
+    margin-top: 30px;
+}
+#social-holder a{
+    text-decoration: none;
+}
+#social-holder a img{
+    width: 50px;
+    height: 50px;
+    margin: 5px;
+}
+#main-menu{
+display: flex;
+}
+#main-menu a{
+    flex-grow: 1;
+    text-align: center;
+    display: block;
+    padding: 10px 0;
+    text-decoration: none;
+    color: #dc0101;
+    transition: 300ms;
+}
+#main-menu a:hover,
+#main-menu a.active
+{
+    color: blue;
+    background: #dc0101;
+}
+#pocetna{
+    text-align: center;
+    color: white;
+    background: url(assets/it-solution\ background.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+#pocetna h1{
+    font-size: 48pt;
+    margin-top: 0;
+    /* padding-top:50px; */
+}
+.dark-box{
+    border: 1px solid white;
+    background-color: #e43c3c50;
+    font-size: 24pt;
+    
+}
+#proba .centriranjestranice{
+    position: relative;
+}
+.centriranjestranice{
+    margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+#pocetna{
+    text-align: center;
+    color: white;
+    background: url(assets/it-solution\ background.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+#usluge{
+    text-align: center;
+    
+    background: url(assets/services.png);
+    background-size: cover;
+    background-attachment: fixed;
+}
+#karijera{
+    background: url(assets/career.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+.align-center{
+    text-align: center;
+}
+.krugovi{
+    display: flex;
+    margin: 50px 0;
+}
+.krug-holder{
+    flex-grow: 1;
+    text-align: center;
+}
+.krug{
+    background: #dc0101;
+    color: #fff;
+    font-size: 48px;
+    /* width: 200px;
+    height: 200px; */
+    display: inline-block;
+    padding: 25%;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    font-weight: bold;
+}
+.oznaka{
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+.tehnologije{
+    display: flex;
+    margin: 50px 0;
+}
+.tehnologija{
+flex-grow: 1;
+text-align: center;
+}
+
+.tehnologija img{
+    width: 48px;
+    height: 48px;
+}
+.tehnologija p {
+    font-weight: bold;
+}
+#mariaDB{
+    width: 80px;
+}
+#usluge{
+    color: black;
+    font-weight: bold;
+}
+#usluge h2{
+    padding-top: 40px;
+}
+.service-row{
+    display: flex;
+    margin-bottom: 40px;
+    justify-content: space-between;
+    border: 1px solid white;
+}
+.service-row >div{
+/* flex-grow: 1; */
+text-align: center;
+position: relative;
+width: 300px;
+height: 150px;
+}
+.service-row >div>img{
+    width: 300px;
+    height: 150px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+.service-row >div>p{
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    padding: 10px;
+    background-color: #ffffffC0;
+    margin-bottom: 0px;
+    border-top: 1px solid white;
+}
