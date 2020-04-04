@@ -197,3 +197,59 @@ height: 150px;
     margin-bottom: 0px;
     border-top: 1px solid white;
 }
+#proizvodi h2{
+margin-top: 50px;
+}
+.matrica{
+    display: grid;
+    margin-top: 40px;
+   
+    height: 500px;
+    
+    grid-template: "a b c"
+                    "d b e"
+                    "f f g";
+    align-content: space-between;
+    justify-content: space-between;
+}
+#proizvod-1  img{
+grid-area: a;
+width: 300px;
+height: 150px;
+}
+#proizvod-2  img{
+    grid-area: b;
+    width: 300px;
+    height: 300px;
+}
+
+#proizvod-3 img{
+    grid-area: c;
+    width: 300px;
+    height: 150px;
+}
+
+#proizvod-4  img{
+    grid-area: d;
+    width: 300px;
+    height: 150px;
+}
+
+#proizvod-5  img{
+    grid-area: e;
+    width: 300px;
+    height: 150px;
+
+}
+
+#proizvod-6  img{
+    grid-area: f;
+    width: 600px;
+    height: 150px;
+}
+#proizvod-7  img{
+    grid-area: g;
+    width: 300px;
+    height: 150px;
+}
+
