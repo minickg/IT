@@ -209,8 +209,8 @@ margin-top: 50px;
     grid-template: "a b c"
                     "d b e"
                     "f f g";
-    align-content: space-around;
-    justify-content: space-around;
+    align-content: stretch;
+    justify-content: stretch;
 }
 #proizvod-1{
 grid-area: a;
@@ -241,14 +241,14 @@ grid-area: a;
     grid-area: f;
    
 }
-#proizvod-7  img{
+#proizvod-7 {
     grid-area: g;
    
 }
-.proizvod img{
+.proizvod  img{
     grid-area: region;
 }
-.proizvod span{
+.proizvod  span{
     grid-area: region;
 }
 
