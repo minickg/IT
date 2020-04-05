@@ -199,6 +199,7 @@ height: 150px;
 }
 #proizvodi h2{
 margin-top: 50px;
+text-align: center;
 }
 .matrica{
     display: grid;
@@ -209,11 +210,12 @@ margin-top: 50px;
     grid-template: "a b c"
                     "d b e"
                     "f f g";
-    align-content: stretch;
-    justify-content: stretch;
+    align-content: space-between;
+    justify-content: space-between;
 }
 #proizvod-1{
 grid-area: a;
+
 
 }
 #proizvod-2{
@@ -245,11 +247,33 @@ grid-area: a;
     grid-area: g;
    
 }
+.proizvod{
+    display: grid;
+    grid-template: "region";
+    align-content: stretch;
+    justify-content: stretch;
+    
+}
 .proizvod  img{
     grid-area: region;
+    justify-self: stretch;
+    align-self: stretch;
 }
-.proizvod  span{
+.proizvod  .text-holder{
     grid-area: region;
+    justify-self: stretch;
+    align-self: stretch;
+    display: grid;
+    align-content: center;
+    justify-content: center;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: #dc0101;
+    color: #fff;
+    opacity: 0.0;
+    transition: 500ms;
 }
-
+.proizvod:hover .text-holder{
+    opacity: 0.5;
+}
 
