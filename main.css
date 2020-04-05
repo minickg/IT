@@ -209,47 +209,47 @@ margin-top: 50px;
     grid-template: "a b c"
                     "d b e"
                     "f f g";
-    align-content: space-between;
-    justify-content: space-between;
+    align-content: space-around;
+    justify-content: space-around;
 }
-#proizvod-1  img{
+#proizvod-1{
 grid-area: a;
-width: 300px;
-height: 150px;
+
 }
-#proizvod-2  img{
+#proizvod-2{
     grid-area: b;
-    width: 300px;
-    height: 300px;
+    
 }
 
-#proizvod-3 img{
+#proizvod-3{
     grid-area: c;
-    width: 300px;
-    height: 150px;
+    
 }
 
-#proizvod-4  img{
+#proizvod-4{
     grid-area: d;
-    width: 300px;
-    height: 150px;
+   
 }
 
-#proizvod-5  img{
+#proizvod-5{
     grid-area: e;
-    width: 300px;
-    height: 150px;
+   
 
 }
 
-#proizvod-6  img{
+#proizvod-6{
     grid-area: f;
-    width: 600px;
-    height: 150px;
+   
 }
 #proizvod-7  img{
     grid-area: g;
-    width: 300px;
-    height: 150px;
+   
 }
+.proizvod img{
+    grid-area: region;
+}
+.proizvod span{
+    grid-area: region;
+}
+
 
